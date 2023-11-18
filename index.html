@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vyvamind Product Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Include Font Awesome for star icons -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center; /* Center text within the body */
+            background-color: #333; /* Set the background color to dark gray */
+            color: white; /* Set text color to white for better contrast */
+        }
+
+        #vyvamindBox {
+            background-color: #FF0000; /* Set the background color to red */
+            padding: 20px;
+            border-radius: 10px; /* Add border radius for rounded corners */
+            margin: 20px;
+        }
+
+        #vyvamindHeading {
+            color: white; /* Set the text color to white */
+            font-size: 20px; /* Reduced font size */
+        }
+
+        #productContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px;
+            padding: 20px;
+            background-color: #444; /* Set a background color for the product container (darker gray) */
+            border-radius: 10px; /* Add border radius for rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a black border with shadow */
+        }
+
+        #productImageContainer {
+            width: 40%; /* Set the width of the image container */
+            border-radius: 10px; /* Add border radius for rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a black border with shadow */
+        }
+
+        #productImage {
+            width: 100%; /* Set the width of the image to 100% of the container */
+            height: auto; /* Automatically adjust the height to maintain aspect ratio */
+            border-radius: 10px; /* Add border radius for rounded corners */
+        }
+
+        #productReviewsContainer {
+            width: 55%; /* Set the width of the reviews container */
+            text-align: left; /* Align text to the left */
+            margin-left: 20px;
+            font-size: 12px; /* Reduced font size for reviews */
+            border-radius: 10px; /* Add border radius for rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a black border with shadow */
+        }
+
+        .review {
+            margin-bottom: 20px;
+        }
+
+        .ratingStars {
+            font-size: 14px; /* Reduced font size for stars */
+            color: #FFD700; /* Set the color of the stars */
+            margin-right: 5px;
+        }
+
+        #productDescription {
+            margin: 20px auto; /* Center the box horizontally */
+            text-align: center; /* Center the text within the box */
+            width: 80%; /* Set the width of the box */
+            padding: 10px;
+            background-color: #444; /* Set a background color for the box (darker gray) */
+            border-radius: 10px; /* Add border radius for rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a black border with shadow */
+        }
+
+        #descriptionBox {
+            padding: 10px;
+        }
+
+        #learnMoreBtn {
+            display: block;
+            margin: 20px auto; /* Center the button horizontally */
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #FF0000; /* Set the background color to red */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="vyvamindBox">
+        <h1 id="vyvamindHeading">Vyvamind</h1>
+    </div>
+
+    <div id="pageHeader">
+        <h2>Product Reviews</h2>
+    </div>
+
+    <div id="productContainer">
+        <div id="productImageContainer">
+            <img id="productImage" src="/Users/a.i.s./Desktop/Test B/3-vyv.jpg" alt="Product Image">
+        </div>
+
+        <div id="productReviewsContainer">
+            <div class="review">
+                <h3>Unleashed My Productivity!</h3>
+                <p><span class="ratingStars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Vyvamind has truly unleashed my productivity. The focused clarity it provides is unparalleled, and unlike other supplements, I don't experience any crashes. It's become my secret weapon for conquering deadlines and staying on top of my game.</p>
+            </div>
+
+            <div class="review">
+                <h3>Smooth Focus, No Jitters!</h3>
+                <p><span class="ratingStars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Vyvamind delivers a smooth and sustained focus without the jittery feeling. The combination of ingredients seems perfectly balanced, and I love that there's no sudden drop in energy. It's my go-to for busy workdays when I need to be at my best from morning to night.</p>
+            </div>
+
+            <div class="review">
+                <h3>Mental Boost with a Side of Calm</h3>
+                <p><span class="ratingStars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Vyvamind not only sharpens my focus but also brings a sense of calm. The adaptogenic elements seem to take the edge off stress, making it a holistic solution for my demanding job. It's the mental boost I didn't know I needed.</p>
+            </div>
+
+            <div class="review">
+                <h3>Vyvamind - My Study Buddy!</h3>
+                <p><span class="ratingStars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>As a student, Vyvamind has become my study buddy. The increased concentration and cognitive support have made a noticeable difference in retaining information. I feel more confident and in control during exams – definitely a must-have for any student!</p>
+            </div>
+
+            <div class="review">
+                <h3>Effective and Reliable</h3>
+                <p><span class="ratingStars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Vyvamind has proven to be both effective and reliable in enhancing my cognitive function. I appreciate the carefully selected ingredients that work together seamlessly. It's a staple in my daily routine, and I wouldn't go a day without it for maintaining mental sharpness and clarity.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="productDescription">
+        <h2>Product Description</h2>
+        <div id="descriptionBox">
+            <p>Vyvamind is a natural focus supplement meticulously crafted to boost cognitive function. With a blend of carefully selected ingredients, it provides a seamless and sustained enhancement to mental clarity, making it an ideal brain booster for those seeking a natural and effective way to stay focused throughout the day.</p>
+        </div>
+    </div>
+
+    <a href="https://vyvamind.com/products/vyvamind-individual-bottle-60-caps" id="buyNowBtn">Buy Now</a>
+
+</body>
+
+</html>
